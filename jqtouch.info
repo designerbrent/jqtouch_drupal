@@ -1,0 +1,35 @@
+; $Id: $
+name = jQTouch
+description = Integration with the jQTouch Package
+core = 6.x
+
+engine = phptemplate
+stylesheets[screen][] = jqtouch/jqtouch/jqtouch.min.css
+stylesheets[screen][] = jqtouch/themes/jqt/theme.min.css
+stylesheets[screen][] = css/styles.css
+
+
+scripts[] = jqtouch/jqtouch/jqtouch.js
+; scripts[] = jqtouch/jqtouch/jqtouch.transitions.js
+scripts[] = scripts/general.js
+
+regions[titlebar] = Title Bar
+regions[content] = Content
+regions[footer] = Footer
+
+; Let's enable some features
+; features[] = logo
+features[] = name
+features[] = slogan
+features[] = mission
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = search
+features[] = favicon
+features[] = primary_links
+; features[] = secondary_links
+
+; Set the default settings to be used in theme-settings.php
+settings[jqtouch_theme_style]               = apple
+settings[jqtouch_rebuild_registry]          = 0
+settings[jqtouch_disable_resize]            = 1

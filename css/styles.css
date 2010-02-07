@@ -1,0 +1,26 @@
+/* @override http://memorizer/sites/all/themes/jqtouch/css/styles.css?t */
+
+#block-user-1{
+  display:none;
+}
+
+h1 a{
+  color: #fff;
+  font: bold 18px Helvetica;
+  text-shadow: rgba(255,255,255,.2) 0 1px 1px;
+  text-decoration: none;
+}
+
+h1 a:hover{
+  text-decoration: underline;
+}
+
+ul.pager li {
+  width: 15%;
+  float: left;
+  text-align: center;
+}
+
+/*ul.pager li.pager-ellipsis {
+  display: none;
+}*/
